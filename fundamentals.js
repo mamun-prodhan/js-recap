@@ -18,3 +18,8 @@ const myVariable = 'movies';
 console.log(superStar.name);
 console.log(superStar['age']);
 console.log(superStar[myVariable]);
+
+const isEven = x => x % 2 ==0;
+// console.log(isEven(3));
+const addThree = (x, y, z) => x + y + z;
+console.log(addThree(10, 20, 30));
