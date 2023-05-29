@@ -14,6 +14,7 @@ const superStar = {
 
 const myVariable = 'movies';
 
+
 console.log(superStar.name);
-console.log(superStar['tag']);
+console.log(superStar['age']);
 console.log(superStar[myVariable]);
