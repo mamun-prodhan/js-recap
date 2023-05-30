@@ -15,4 +15,13 @@ const price = products.map(product => product.price);
 // console.log(brands);
 // console.log(price);
 
-products.forEach(product => console.log(product.name,'and the price is ', product.price));
+// products.forEach(product => console.log(product.name,'and the price is ', product.price));
+
+const filterName = products.filter(product => product.name.includes('n'));
+console.log(filterName);
+
+const filterPrice = products.filter(product => product.price <=1000);
+console.log(filterPrice);
+
+const findOne = products.find(product => product.brands.includes('casio'));
+console.log(findOne);
