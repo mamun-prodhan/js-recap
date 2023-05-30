@@ -20,3 +20,23 @@ const superStar = {
 
 const [first, second] = superStar.movies;
 console.log(second);
+
+const employee = {
+    name: 'Rahim',
+    address: 'Dhaka',
+    specification: {
+        height: 66,
+        weight: 88,
+        health: {
+            bloodPressure: {
+                up: "normal - 120",
+                down: "normal - 80",
+                calculatedBP: [120, 140, 125, 80, 70]
+            }
+        }
+    }
+}
+
+const {up, down} = employee?.specification?.health?.bloodPressure;
+
+console.log(up, down);
